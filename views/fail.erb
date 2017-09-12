@@ -1,0 +1,14 @@
+<h1>Answer the FAil to pass the gates!</h1>
+
+<p><%= @display %></p>
+
+<form action="output" method="post">
+
+  <div class="form-group">
+    <label for="answer">Answer:</label>
+    <input id="answer" name="answer" class="form-control" type="text">
+  </div>
+  <button type="submit" class="btn">Submit</button>
+</form>
+
+<p><%= @try %></p>
